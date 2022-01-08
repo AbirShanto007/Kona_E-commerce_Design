@@ -1,0 +1,41 @@
+section{
+    margin-top: 3.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+footer{
+    margin-top: 2rem;
+}
+.header-icon i{
+    color: #ffffff;
+}
+.header-icon .nav-link:hover i{
+    color: #005cbf;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(.5);
+}
+
+
+.footer-icon i{
+    color: #000000;
+}
+.footer-icon .nav-link:hover i{
+    color:#0c5460;
+}
+
+#size button:hover{
+    border-radius: 100%;
+    background-color: #17a2b8;
+    color: #ffffff;
+    transition: border-radius 3s, background-color 3s, color 3s ;
+}
+section .container-fluid .dropdown .btn{
+    border-radius: 20%;
+}

@@ -1,0 +1,66 @@
+/*#kona{
+   margin-right: 200px;
+}*/
+section{
+    margin-top: 3.5rem;
+}
+.header-icon i{
+    color: #ffffff;
+}
+.header-icon .nav-link:hover i{
+    color: #005cbf;
+}
+.inner{
+    overflow: hidden;
+
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+#services .col-4 .service{
+    width: 55px;
+    height: 55px;
+    border: 1px solid #ebebeb;
+    position: relative;
+    color: #0b72ff;
+}
+#services .col-4 .service p{
+     position: absolute;
+     top: 17px;
+     left: 17px;
+ }
+#services .col-4 .service:hover{
+    background-color: #0b72ff;;
+    border-radius: 100%;
+    color: #fff;
+    transition: border-radius 3s, background-color 3s, color 3s;
+}
+.footer-icon i{
+    color: #000000;
+}
+.footer-icon .nav-link:hover i{
+    color:#0c5460;
+}
+
+#category{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#recent-product{
+    padding-top: 2%;
+}
+#desk {
+    padding-top: 5% ;
+}
+
+@media (max-width: 575.98px) {
+
+    html{
+
+    }
+
+
+}
